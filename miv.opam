@@ -1,0 +1,13 @@
+opam-version: "1.2"
+name: "miv"
+version: "0.1.0"
+maintainer: "Wil Thomason <wbthomason@cs.cornell.edu>"
+author: "Wil Thomason <wbthomason@cs.cornell.edu>"
+homepage: "https://github.com/wbthomason/miv"
+bug-reports: "https://github.com/wbthomason/miv/issues"
+license: "MIT"
+dev-repo: "https://github.com/wbthomason/miv"
+build: ["jbuilder" "build"]
+install: ["jbuilder" "install"]
+remove: ["ocamlfind" "remove" "project"]
+depends: ["ocamlfind" "jbuilder" "core" "async" "lambda-term"]

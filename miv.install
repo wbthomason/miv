@@ -1,0 +1,16 @@
+lib: [
+  "_build/install/default/lib/miv/META" {"META"}
+  "_build/install/default/lib/miv/opam" {"opam"}
+  "_build/install/default/lib/miv/miv.cmi"
+  "_build/install/default/lib/miv/miv.cmx"
+  "_build/install/default/lib/miv/miv.cmt"
+  "_build/install/default/lib/miv/miv.ml-gen"
+  "_build/install/default/lib/miv/miv.cma"
+  "_build/install/default/lib/miv/miv.cmxa"
+  "_build/install/default/lib/miv/miv.a"
+  "_build/install/default/lib/miv/miv.cmxs"
+]
+doc: [
+  "_build/install/default/doc/miv/README.md"
+  "_build/install/default/doc/miv/LICENSE"
+]

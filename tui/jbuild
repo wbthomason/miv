@@ -1,0 +1,5 @@
+(jbuild_version 1)
+
+(executable 
+  ((name miv)
+   (libraries (async core lambda-term miv))))
